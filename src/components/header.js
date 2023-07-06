@@ -4,13 +4,13 @@ export default function Header() {
   return (
     <>
       {" "}
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container px-lg-5">
-          <a class="navbar-brand" href="#!">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container px-lg-5">
+          <a className="navbar-brand" href="#!">
             Start Bootstrap
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -18,22 +18,22 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#!">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#!">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#!">
+              <li className="nav-item">
+                <a className="nav-link" href="#!">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#!">
+              <li className="nav-item">
+                <a className="nav-link" href="#!">
                   Contact
                 </a>
               </li>
@@ -41,17 +41,17 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      <header class="py-5">
-        <div class="container px-lg-5">
-          <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
-            <div class="m-4 m-lg-5">
-              <h1 class="display-5 fw-bold">A warm welcome!</h1>
-              <p class="fs-4">
+      <header className="py-5">
+        <div className="container px-lg-5">
+          <div className="p-4 p-lg-5 bg-light rounded-3 text-center">
+            <div className="m-4 m-lg-5">
+              <h1 className="display-5 fw-bold">A warm welcome!</h1>
+              <p className="fs-4">
                 Bootstrap utility classes are used to create this jumbotron
                 since the old component has been removed from the framework. Why
                 create custom CSS when you can use utilities?
               </p>
-              <a class="btn btn-primary btn-lg" href="#!">
+              <a className="btn btn-primary btn-lg" href="#!">
                 Call to action
               </a>
             </div>
