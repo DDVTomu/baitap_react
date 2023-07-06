@@ -19,10 +19,10 @@ export default class Shoes extends Component {
   };
 
   _findIndex = (maSP) =>
-    this.state.listCart.findIndex((product) => product.maSP === maSP);
+    this.state.listCart.findIndex((product) => product.id === maSP);
 
   setStateModal = (product) => {
-    const index = this._findIndex(product.maSP);
+    const index = this._findIndex(product.id);
 
     //tạo mảng listCart mới từ this.state.listCart
     let listCart = [...this.state.listCart];
