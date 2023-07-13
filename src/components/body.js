@@ -2,6 +2,7 @@ import React from "react";
 import Item from "./Body/item";
 import Glasses from "./glasses";
 import Shoes from "./shoes";
+import Movie from "./movie";
 export default function Body() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Body() {
           {/* <Item /> */}
           <Glasses />
           <Shoes />
+          <Movie />
         </div>
       </section>
     </>
