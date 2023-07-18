@@ -1,4 +1,4 @@
-import { GET_SEAT, REMOVE_SEAT } from "./constants";
+import { GET_SEAT, REMOVE_SEAT, DELETE_USER, EDIT_USER, SUBMIT_USER } from "./constants";
 
 const actGetSeat = (seat) => {
   return {
@@ -12,4 +12,26 @@ const actRemoveSeat = (seat) => {
     payload: seat,
   };
 };
-export { actGetSeat, actRemoveSeat };
+
+const actSubmitUser = (user) => {
+  return {
+    type: SUBMIT_USER,
+    payload: user,
+  };
+};
+
+const actDeleteUser = (id) => {
+  return {
+    type: DELETE_USER,
+    payload: id,
+  };
+};
+
+const actEditUser = (user) => {
+  return {
+    type: EDIT_USER,
+    payload: user,
+  };
+};
+
+export { actGetSeat, actRemoveSeat, actDeleteUser, actEditUser, actSubmitUser };

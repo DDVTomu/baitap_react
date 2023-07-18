@@ -99,7 +99,7 @@ li.smallBox {
 
 label {
   font-size: 1em;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
@@ -404,4 +404,19 @@ input[type="checkbox"]:checked:before {
 
 #seatsBlock {
   width: 100%;
+}
+
+.form-box {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+
+.form-box .form-group {
+  text-align: left;
+}
+.form-group .form-control {
+  width: 100%;
+  color: #000;
 }

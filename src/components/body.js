@@ -3,6 +3,7 @@ import Item from "./Body/item";
 import Glasses from "./glasses";
 import Shoes from "./shoes";
 import Movie from "./movie";
+import UserManagement from "./user-management";
 export default function Body() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Body() {
           <Glasses />
           <Shoes />
           <Movie />
+          <UserManagement/>
         </div>
       </section>
     </>
